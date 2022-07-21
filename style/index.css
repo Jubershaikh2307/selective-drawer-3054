@@ -67,6 +67,152 @@
   text-align: center;
 }
 
+#gridseccessio{
+  margin: auto;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-bottom: 100px;
+}
+
+#gridseccessio > div:nth-child(1) > h1{
+  padding-top: 100px;
+  text-align: center;
+}
+
+#gridseccessio > div:nth-child(2){
+  width:60%;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px
+}
+
+#gridseccessio > div:nth-child(2) > div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 40px;
+  height: auto;
+}
+
+ul > li {
+  list-style-type: '\2713';
+}
+
+#gridseccessio > div:nth-child(2) > div > img:first-child{
+  width: 100%;
+  height: 150px;
+}
+
+#gridseccessio > div:nth-child(2) > div > img:nth-child(2){
+  margin-left: 20px;
+  margin-top: -40px;
+}
+
+#gridseccessio > div:nth-child(2) > div > h1{
+  margin-left: 20px;
+  font-size:25px;
+}
+
+#gridseccessio > div:nth-child(2) > div > p{
+  margin-left: 20px;
+}
+
+#gridseccessio > div:nth-child(2) > div > ul{
+  margin-left: 20px;
+}
+
+#gridseccessio > div:nth-child(2) > div > button{
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+#inclde{
+  width:60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#inclde > div{
+  display:flex;
+  justify-content: space-between;
+}
+
+#inclde > div > div:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#inclde > div > div{
+  text-align:center;
+  padding-top: 70px;
+}
+
+#inclde > div > div:nth-child(1) > h2{
+  margin-top: -25px;
+  font-size:50px;
+}
+
+#inclde > div > div:nth-child(1) > h4{
+  margin-top: -30px;
+  font-size:20px;
+}
+
+#inclde > div > div:nth-child(1) > hr{
+  width: 50px;
+}
+
+#inclde > div > div:nth-child(1) > p{
+  font-size: 20px;
+  margin: auto;
+  width: 40%;
+  margin-top: 10px;
+}
+
+#inclde > div > div:nth-child(2) > img{
+  width: 40%;
+}
+
+#inclde > div > div:nth-child(2) > p{
+  font-size: 20px;
+  margin: auto;
+  width: 40%;
+  margin-top: 10px;
+}
+
+#inclde > div > div:nth-child(3) > img{
+  width: 40%;
+}
+
+#inclde > div > div:nth-child(3) > p{
+  margin: auto;
+  width:50%;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#footer{
+  background-color:#f8f8f8;
+  width:100%;
+}
+
+#footer > div:nth-child(1){
+  display:flex;
+  justify-content:space-around;
+}
+
+#footer > div:nth-child(1) > div:nth-child(1){
+  width:15%;
+}
+
+/* #footer > div:nth-child(1){
+  width:0%;
+} */
+
+#footer > div:nth-child(1) > div:nth-child(1) > img{
+  width:50%;
+}
 
 
 
