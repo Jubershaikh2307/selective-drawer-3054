@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+  }
+#signincontainee{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+
+#signincontainee > div:nth-child(1){
+    width: 60%;
+    background-image: url(https://accounts.coschedule.com/img/login-illustrations/16-2defb5b42eb55e7e369e40bb323df8a0.png);
+}
+
+#signincontainee > div:nth-child(2) > div{
+    margin: auto;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#signincontainee > div:nth-child(2){
+    width: 40%;
+}
+
+#signincontainee > div:nth-child(2) > div > div {
+    width: 100%;
+    height: 100px;
+}
+#signincontainee > div:nth-child(2) > div > div > div > img{
+    width: 8%;
+    margin-right: 10px;
+}
+
+#signincontainee > div:nth-child(2) > div > div > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+#signincontainee > div:nth-child(2) > div > div > div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#signincontainee > div:nth-child(2) > div > div > p{
+    margin-top: 40px;
+}
+
+label{
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+input{
+    height: 50px;
+    color: gray;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    border: none;
+    background: #D68570;
+    color:white;
+    font-size:15px;
+}

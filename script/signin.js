@@ -1,24 +1,24 @@
 let arr= JSON.parse(localStorage.getItem("selective-drawer-3054")) || []
 
-console.log(arr)
-
 document.querySelector("form").addEventListener("submit",function(){
     event.preventDefault();
-    let name = document.querySelector("#name").value;
+    let check=false
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
-
-    if(name== "" || email== "" || password ==""){
+    if(email== "" || password ==""){
         alert("Please fill all details")
     }else{
-        let obj={
-            name:name,
-            email:email,
-            password:password
+        arr.map(function(val){
+            if(email==val.email && password == val.password){
+                check=true;
+            }
+        })
+        if(check){
+            alert("Successfull")
+        }else{
+            alert("Fail")
         }
-        arr.push(obj);
-        localStorage.setItem("selective-drawer-3054",JSON.stringify(arr))
     }
-
 })
 
+// console.log(arr)
